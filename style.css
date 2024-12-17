@@ -148,6 +148,15 @@ input[value="Clear form"] {
     flex-direction: row;
     justify-content: space-between;
     width: 80%;
+
+}
+ 
+.liste ul {
+    list-style-image: url(images/list.gif);
+ }
+
+.weblinks ul {
+    list-style-image: url(images/link.gif);
 }
 
 
