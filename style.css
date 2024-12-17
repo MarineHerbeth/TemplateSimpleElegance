@@ -1,0 +1,160 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+header {
+    background-color: #fcffd4;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    
+}
+nav {
+    display: flex;
+    background-color: #fcffd4;
+    width: 100%;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    height: 40px;
+    padding-left: 40px;                  
+}
+
+nav a {
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+
+main {
+    width: 40%;
+}
+
+h1 {
+    color: #626257;
+    margin-bottom: -20px;
+    font-size: medium
+}
+
+h2 {
+    color: #626257;
+margin-bottom: -20px;
+font-size: medium;
+}
+
+h3 {
+    color: #626257;
+font-size: medium;
+
+}
+
+.article {
+    display: flex;
+    align-items: center;
+}
+
+.article-inverted {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.article img {
+    margin: 10px;
+}
+
+hr {
+    background-image:url(images/hr.png);
+    height: 10px;
+}
+
+a {
+    color: 
+    #939382;
+}
+
+.conteneur-image {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.item1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+.item1 input {width: 55%;
+    background-color:#f5f5d9;
+    border: none;
+}
+.item2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+
+}
+.item2 input {width: 55%;
+    background-color:#f5f5d9;
+    border: none;
+}
+.item3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+textarea {
+    width: 55%;
+    background-color:#f5f5d9;
+    border: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content:center;
+    margin-left: 45%;
+    margin-top: 10px;
+
+
+}
+
+input[value="Submit message"] {
+    width: 50%;
+    background-color:#f5f5d9;
+    border: 1px solid black;
+}
+
+input[value="Clear form"] {
+    width: 50%;
+    background-color:#f5f5d9;
+    border: 1px solid black;
+}
+
+.weblinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+
+footer { 
+    width: 40%;
+    line-height: 5px;
+ 
+}
+.link-end {text-align: right;
+margin: 10px;}
