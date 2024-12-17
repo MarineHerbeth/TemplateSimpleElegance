@@ -17,9 +17,6 @@ header {
     
 }
 
-header p {
-
-}
 nav {
     display: flex;
     background-color: #f5f5dc;
@@ -97,6 +94,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 60%;
+    font-weight: bold;
 }
 .item1 {
     display: flex;
@@ -136,19 +134,19 @@ textarea {
     justify-content:center;
     margin-left: 45%;
     margin-top: 10px;
-
-
 }
 
 input[value="Submit message"] {
     width: 50%;
-    background-color:#f5f5d9;
+    background-color:#f5f5d9 l;
+    background:linear-gradient(#ffffff,#f6f6df);
     border: 1px solid black;
 }
 
 input[value="Clear form"] {
     width: 50%;
     background-color:#f5f5d9;
+    background:linear-gradient(#ffffff,#f6f6df);
     border: 1px solid black;
 }
 
@@ -176,3 +174,6 @@ footer {
 }
 .link-end {text-align: right;
 margin: 10px;}
+.link-end a {
+    color: black;
+}
